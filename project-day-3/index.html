@@ -4,13 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Project</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /> -->
+    <title>Rotating Navigation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button class="circle-button" id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button class="circle-button" id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
 
+      <section class="content">
+        <h1>The Land of the Rising Sun</h1>
+        <small>Alex R. Farnes</small>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          voluptatibus velit ipsa. A porro dolorum omnis neque? Dolor ab,
+          asperiores maiores tenetur incidunt totam sed laborum voluptatum
+          dignissimos ullam? Dolorem debitis explicabo perferendis inventore,
+          possimus commodi, consequuntur recusandae enim eveniet nobis nihil
+          laboriosam nesciunt. Ea nam aliquam ut qui omnis. Temporibus, quia est
+          assumenda vel dolores corrupti dolorum quis consequatur nobis earum
+          doloribus obcaecati, iusto itaque. Similique animi quod dolores
+          voluptas voluptate rerum, quisquam a non sed hic praesentium enim quae
+          aliquid voluptatibus iste iure, sequi totam, sit nulla maxime nobis
+          illum repellat ea cumque. Quod animi nesciunt optio perspiciatis.
+        </p>
+
+        <h3>Tokyo</h3>
+        <div class="img-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            alt="Tokyo Street"
+          />
+        </div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+          consequuntur aliquam voluptas, fugiat alias quae eos numquam accusamus
+          similique repellat earum asperiores odio maxime reprehenderit quod
+          sint quos possimus beatae ipsum cupiditate repudiandae autem
+          repellendus? Similique cumque eos vitae beatae magnam alias, sapiente
+          ipsam earum veritatis. Neque accusamus, voluptatum fugiat nemo saepe
+          quidem optio fuga sapiente illum dolores voluptates earum! Quasi,
+          repudiandae, autem totam delectus reiciendis fugit omnis nihil numquam
+          corrupti quaerat harum dolores vitae!
+        </p>
+        <div class="img-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1480796927426-f609979314bd?ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=60"
+            alt="Small shop in Japan"
+          />
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim
+          obcaecati consectetur dicta quasi qui esse a corporis, dolores sit
+          rerum autem nulla minima. Exercitationem, reprehenderit at architecto
+          neque id molestiae recusandae ipsa tempore voluptatibus obcaecati
+          quibusdam consectetur suscipit porro repudiandae, hic quo reiciendis.
+          Quia mollitia, perspiciatis unde expedita dolorum magni aspernatur.
+          Aliquam unde fugiat voluptatibus, consequatur earum fuga optio illum
+          autem quos tenetur repellendus a facere! Dolorum id culpa explicabo
+          vitae fugit, odit molestias!
+        </p>
+      </section>
+    </div>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#"
+            ><i class="main-nav__icon fas fa-home"></i>Home</a
+          >
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#"
+            ><i class="main-nav__icon fas fa-user-alt"></i>About</a
+          >
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#"
+            ><i class="main-nav__icon fas fa-envelope"></i>Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
     <script src="script.js"></script>
   </body>
 </html>
