@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix-like Mobile Navigation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="nav__btn btn--open">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <img src="./undraw_Code_thinking_re_gka2.svg" alt="" class="hero" />
+    <p class="text">Welcome to my little space in the internet.</p>
+
+    <div class="nav nav--black">
+      <div class="nav nav--purple">
+        <div class="nav nav--white">
+          <button class="nav__btn btn--close">
+            <i class="fas fa-times"></i>
+          </button>
+          <img src="./smile.svg" alt="" class="logo" />
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
+            <li class="nav__item">
+              <ul class="nav__list--inside">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">HTML & CSS</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">HTML, CSS, & JS</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">React</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
